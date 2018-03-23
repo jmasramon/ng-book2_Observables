@@ -1,0 +1,8 @@
+<p>
+  chat-window works!
+</p>
+<form #f="ngForm" (ngSubmit)="newMessage(f.value)">
+  <input type="text" placeholder="Write your message" name="newMessage" ngModel>
+  <button>Send</button>
+</form>
+
